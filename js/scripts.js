@@ -24,7 +24,7 @@ $(document).ready(function() {
     $("#output").text(result);
   });
 
-  $("form#subract").submit(function(event) {
+  $("form#subtract").submit(function(event) {
     event.preventDefault();
     var number1 = parseInt($("#subtract1").val());
     var number2 = parseInt($("#subtract2").val());
