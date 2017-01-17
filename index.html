@@ -10,7 +10,49 @@
   <body>
     <div class="container">
       <h1>Calculator</h1>
-      <form id="add">
+
+      <form id="calculator">
+        <div class="form-group">
+          <label for="input1">1st number:</label>
+          <input id="input1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="input2">2nd number:</label>
+          <input id="input2" class="form-control" type="text">
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="add" checked>
+            add
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="subtract">
+            subtract
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="multiply">
+            multiply
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="divide">
+            divide
+          </label>
+        </div>
+
+        <button type="submit" class="btn">Go!</button>
+
+      </form>
+
+
+
+      <!-- <form id="add">
         <h3>Addition</h3>
         <div class="form-group">
           <label for="add1">1st number:</label>
@@ -22,7 +64,6 @@
         </div>
         <button type="submit" class="btn">Add!</button>
       </form>
-
       <form id="subtract">
         <h3>Subtraction</h3>
         <div class="form-group">
@@ -35,7 +76,6 @@
         </div>
         <button type="submit" class="btn">Subtract!</button>
       </form>
-
       <form id="multiply">
         <h3>Multiplication</h3>
         <div class="form-group">
@@ -48,7 +88,6 @@
         </div>
         <button type="submit" class="btn">Multiply!</button>
       </form>
-
       <form id="divide">
         <h3>Division</h3>
         <div class="form-group">
@@ -60,7 +99,7 @@
           <input id="divide2" class="form-control" type="text">
         </div>
         <button type="submit" class="btn">Divide!</button>
-      </form>
+      </form> -->
 
       <div id="output">
       </div>
